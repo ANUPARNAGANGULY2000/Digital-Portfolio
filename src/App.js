@@ -143,7 +143,7 @@ const App = () => {
             <section className=' w-full grid grid-cols-1 md:grid-cols-2 gap-8 my-28 py-14' id='home'>
                 
                  <div className=' flex flex-col  items-center justify-center w-auto h-[420px] gap-4'>
-                    <p className='text:xl md:text-3xl text-slate-50 p-3'>Hello ,I'm  </p>
+                    <p className='text:2xl md:text-3xl text-slate-50 p-3'>Hello ,I'm  </p>
                     <p className='text-xl sm:text-4xl  md:text-4xl lg:text-5xl xl:text-6xl text-yellow-400 p-3 ' >Anuparna Ganguly </p>
                     <p className='text-xl md:text-3xl text-slate-50 p-3'>MERN Stack Developer </p>
                     <div className=' flex items-center justify-center gap-4'>
@@ -170,7 +170,7 @@ const App = () => {
                     animate={{ opacity : 1 , translateX:50 }}
                     exit={{ opacity : 0 ,translateX:-50 }}
                     
-                    src={anuImage} alt='' className='rounded-full w-64 h-72 object-cover shadow-lg '></motion.img>
+                    src={anuImage} alt='' className='rounded-full w-64  h-72 flex justify-center items-center absolute right-14 top-4  object-cover shadow-lg '></motion.img>
                     </div>
                 </div>
 
