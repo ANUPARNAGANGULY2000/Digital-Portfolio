@@ -69,7 +69,7 @@ const App = () => {
             bar: "#e5b60c",
             title: { background: '#727272' }
           }},
-        { type: 'BootStarp', level: 40  , 
+        { type: 'BootStrap', level: 40  , 
            color: {
             bar: "#e5b60c",
             title: { background: '#727272' }
