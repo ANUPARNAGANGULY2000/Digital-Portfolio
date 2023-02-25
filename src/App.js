@@ -84,19 +84,15 @@ const App = () => {
            color: {
             bar: "#e5b60c",
             title: { background: '#727272' }
-          } },
-        { type: 'NoSQL', level: 0 ,  
-            color: {
-            bar: "#e5b60c",
-            title: { background: '#727272' }
           } }
+       
       ];
 
     const [isMenu ,setIsMenu ] = useState(false);
    
     
   return (
-    <div className=' flex w-screen h-[6800px] items-center justify-center relative flex-col min-h-[3500px] pb-20 bg-slate-900'>
+    <div className=' flex w-screen  h-[6200px]  md:h-fit items-center justify-center relative flex-col min-h-[3500px] pb-20 bg-slate-900'>
 
 
         {/** navbar */}
